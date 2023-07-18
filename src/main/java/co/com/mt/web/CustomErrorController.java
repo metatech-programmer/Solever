@@ -1,6 +1,5 @@
 package co.com.mt.web;
 
-import co.com.mt.domain.Usuario;
 import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.http.HttpServletRequest;
 import org.glassfish.grizzly.http.util.HttpStatus;
