@@ -1,0 +1,25 @@
+[CategoriaTema(id=CategoriaTemaId(idCategoria=2, idTema=1),
+
+ categoria=Categoria(idCategoria=2, nombreCategoria=ROLE_TEEN),
+
+ tema=Tema(idTema=2, 
+
+usuario=Usuario(idUsuario=2, nombreUsuario=use2r, apellidoUsuario=user2, fechaNacimientoUsuario=2003-10-28, generoUsuario=Hombre, numeroTelUsuario=3245678354, fotoCedulaUsuario=mifoticvosd, correoUsuario=user2@u.com, passwordUsuario=$2a$12$FV.wQhjfeIns39rtm/gK0eysWWflIb5h.MucrpPFn6p2z8YlOgMCi, 
+
+idCategoria=Categoria(idCategoria=4, nombreCategoria=ROLE_ADULT)),
+
+ nombreTema=Leer, cuposTema=230, horaTema=08:00:00, descripcionTema= ¡Únete a nuestra reunión de lectura! Es una oportunidad única para compartir ideas y conocer a otros apasionados de los libros. ¡Te esperamos allí!, linkMeetTema=https://meet.google.com/bmk-mfcu-xaf, imagenTema=auto.jpg)),
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ CategoriaTema(id=CategoriaTemaId(idCategoria=2, idTema=2), 
+
+categoria=Categoria(idCategoria=2, nombreCategoria=ROLE_TEEN), 
+
+tema=Tema(idTema=2, 
+
+usuario=Usuario(idUsuario=2, nombreUsuario=use2r, apellidoUsuario=user2, fechaNacimientoUsuario=2003-10-28, generoUsuario=Hombre, numeroTelUsuario=3245678354, fotoCedulaUsuario=mifoticvosd, correoUsuario=user2@u.com, passwordUsuario=$2a$12$FV.wQhjfeIns39rtm/gK0eysWWflIb5h.MucrpPFn6p2z8YlOgMCi, 
+
+idCategoria=Categoria(idCategoria=4, nombreCategoria=ROLE_ADULT)),
+
+ nombreTema=Leer, cuposTema=230, horaTema=08:00:00, descripcionTema= ¡Únete a nuestra reunión de lectura! Es una oportunidad única para compartir ideas y conocer a otros apasionados de los libros. ¡Te esperamos allí!, linkMeetTema=https://meet.google.com/bmk-mfcu-xaf, imagenTema=auto.jpg))]
