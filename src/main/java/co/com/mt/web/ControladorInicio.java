@@ -9,7 +9,6 @@ import co.com.mt.domain.CategoriaTema;
 import co.com.mt.domain.CategoriaTemaId;
 import co.com.mt.domain.Tema;
 import co.com.mt.domain.Usuario;
-import co.com.mt.servicio.CategoriaTemaService;
 import co.com.mt.servicio.TemaService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -32,7 +31,6 @@ import java.util.UUID;
 import java.util.stream.Collectors;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.io.Resource;
-import org.springframework.core.io.ResourceLoader;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.util.StringUtils;
@@ -60,8 +58,6 @@ public class ControladorInicio {
     @Autowired
     private CategoriaTemaDao categoriaTemaDao;
 
-    @Autowired
-    private CategoriaTemaService categoriaTemaService;
 
     @Autowired
     private CategoriaDao categoriaDao;
@@ -69,8 +65,6 @@ public class ControladorInicio {
     @Value("file:src/main/resources/static/img/")
     private Resource directorioImagenes;
 
-    @Autowired
-    private ResourceLoader resourceLoader;
 
     @GetMapping("/app")
     public String inicio(Model model, @AuthenticationPrincipal User user) {
